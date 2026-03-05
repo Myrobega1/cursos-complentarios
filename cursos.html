@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos - Instructor SENA</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header (mismo que index.html) -->
+    <header class="header">
+        <!-- Mismo header -->
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Mis Cursos</h1>
+                <p>Descubre nuestra oferta educativa</p>
+            </div>
+        </section>
+
+        <!-- Filtros -->
+        <section class="filters container">
+            <div class="filters__wrapper">
+                <input type="text" id="searchInput" placeholder="Buscar cursos..." class="search-input">
+                
+                <select id="categoryFilter" class="filter-select">
+                    <option value="all">Todas las categorías</option>
+                    <option value="tecnologia">Tecnología</option>
+                    <option value="idiomas">Idiomas</option>
+                    <option value="empresarial">Empresarial</option>
+                    <option value="diseno">Diseño</option>
+                </select>
+                
+                <select id="durationFilter" class="filter-select">
+                    <option value="all">Todas las duraciones</option>
+                    <option value="short">Corto (20-40 horas)</option>
+                    <option value="medium">Medio (40-60 horas)</option>
+                    <option value="long">Largo (60+ horas)</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Grid de Cursos -->
+        <section class="courses-list container">
+            <div class="courses-grid" id="all-courses">
+                <!-- Los cursos se cargarán dinámicamente -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (mismo que index.html) -->
+    <footer class="footer">
+        <!-- Mismo footer -->
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
